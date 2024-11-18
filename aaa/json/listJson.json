@@ -1,0 +1,539 @@
+let listJson = [
+	{
+		"id": 1,
+		"star":"images/star-4.png",
+		"thumb": "picture/1.jpg",
+		"title": "Unpark Jam",
+		"url": "https://html5.gamemonetize.co/6mfj56m7p5ei8mm7juo1sjfszay6mhut/",
+		"description": "Your goal is to move all car to the exit. Move the other cars out of the way so that you can reach it. To move any car, click and drag it forward or backwards using your mouse."
+	},
+
+	{
+		"id": 2,
+		"star":"images/star-5.png",
+		"thumb": "picture/2.jpg",
+		"title": "Recoil Shooter",
+		"url": "https://html5.gamemonetize.co/1v8avibrg89tujkaw0ouo32rqxkd3xkq/",
+		"description": "hey you shooter shoot and blast monsters and kill all level monsters. kill the monsters and skip the level. More challenging enemies are waiting for you in the new level. Different enemies in each level. 15 different levels 15 different difficulties. If you can't jump from the jumping ramp, shoot towards the ground and jump with recoil. Remember, everything is in your hands! Be careful with the wind so it doesn't blow you away."
+	},
+	
+	{
+		"id": 3,
+		"star":"images/star-4.png",
+		"thumb": "picture/3.jpg",
+		"title": "It's Story Time!",
+		"url": "https://html5.gamemonetize.co/cpyavymt1ite4c03k7crsrgeue2utmsp/",
+		"description": "It's Story Time is a puzzle game developed by Sakkat Studio that will challenge your problem-solving skills. The game includes a variety of mini-games with creative puzzles that require creative thinking to solve. You'll be tasked with finding hidden objects, dragging and dropping items to mix them, removing parts of objects, opening closets and drawers, and more. If you get stuck, you can use the hint button for assistance. It's Story Time is a fun and engaging game that's suitable for players of all ages and is sure to improve your"
+	},
+	{
+		"id": 4,
+		"star":"images/star-5.png",
+		"thumb": "picture/4.jpg",
+		"title": "Baby Panda Breakfast Cooking",
+		"url": "https://html5.gamemonetize.co/tow5j009g0xi7y8hbt9rnh4ngy26csjb/",
+		"description": "Baby Panda Breakfast Cooking is a cute cookig game. In this game, you are an owner of a breakfast restaurant. There are 3 customers now waiting for your delicious breakfast. Come and show off your superb cooking skills! If you like cooking game, this is one of the best games for you! Have a good time!"
+	},
+	{
+		"id": 5,
+		"star":"images/star-4.png",
+		"thumb": "picture/5.jpg",
+		"title": "Zombie Mission 12",
+		"url": "https://html5.gamemonetize.co/ee90to69ew522i8ebhwtsf15v6z3k0lb/",
+		"description": "The Zombie Mission series continues its adventures with its 12th episode. Adventure in another parallel universe continues in the wild west. New weapons, mechanics and vehicles have been added to the game. Don't forget to get support from helpful drones and robot horses that will accompany you. Rescue hostages, fight bosses and collect your daily rewards and make necessary improvements in the Store with the coins you earn in-game."
+	},
+	{
+		"id": 6,
+		"star":"images/star-3.png",
+		"thumb": "picture/6.jpg",
+		"title": "Pin Gems Rescue",
+		"url": "https://html5.gamemonetize.co/g1uajz1esi0cji0wiz2kg4xq8zcbx2wx/",
+		"description": "Welcome to Pin Gems Rescue in this game you will need to Pull the Pin and help the monster to loot the treasure or gold & free him from the blockage. Be careful when you pull the pins and use your brain to not drop treasure into lava or water. and don't let other monsters destroy your hero. Good luck!"
+	},
+	{
+		"id": 7,
+		"star":"images/star-4.png",
+		"thumb": "picture/7.jpg",
+		"title": "Fortnite Hidden Items",
+		"url": "https://html5.gamemonetize.co/v0imlcuqfzenjeyds1qqwe83ly2v8l28/",
+		"description": "Fortnite Hidden Items is a free online skill and hidden object game. Find out the hidden items in the specified images. Each level has 10 hidden items. There are 8 levels in total. The time is limited so be fast and find all hidden items before time runs out. Clicking in the wrong place several times reduces the time by an additional 5 seconds. So, if you are ready start the game and have fun!"
+	},
+	{
+		"id": 8,
+		"star":"images/star-5.png",
+		"thumb": "picture/8.jpg",
+		"title": "Granny Puzzle",
+		"url": "https://html5.gamemonetize.co/hdmy38268rk6iljy6uoa9x5059clmtbf/",
+		"description": "Granny Puzzle is a free online game from genre of puzzle and sliding games. You have to solve each picture in a maximum of 50 seconds. In this game you have a total of 9 scary puzzles."
+	},
+	{
+		"id": 9,
+		"star":"images/star-4.png",
+		"thumb": "picture/9.jpg",
+		"title": "Building New House",
+		"url": "https://html5.gamemonetize.co/hw3hltevqw6492zx3prk4jjtkkvjuzlg/",
+		"description": "It's your turn to run the most fabulous handyman’s workshop. Customers want to order your products and services. You can do activities like digging the soil, building or demolishing houses and towers, constructing wood products, cutting wood, welding, and other fun things. Make what children ordered using different building materials, tools, and machines to achieve the most outstanding results. Have fun!"
+	},
+	{
+		"id": 10,
+		"star":"images/star-4.png",
+		"thumb": "picture/10.jpg",
+		"title": "Ghost Bash",
+		"url": "https://html5.gamemonetize.co/2hq11ippaerb4ekjnqz9p8fpc4h3ew43/",
+		"description": "The Ghosts are escaping and it's up to you to stop them. Bash them on the head to banish them back into the darkness. Frantic fun awaits anyone brave enough to enter the graveyard. So simple anyone can play but be warned it gets hard!"
+	},
+	{
+		"id": 11,
+		"star":"images/star-4.png",
+		"thumb": "picture/11.jpg",
+		"title": "Noob Mommy Escape Parkour",
+		"url": "https://html5.gamemonetize.co/zfo8nl06zhx9irslp2n1o99gg08sdhis/",
+		"description": "Noob Mommy Escape Parkour is a Minecraft parkour game where you jump over the blocks while trying to escape from Mommy and yellow baby. Try not to get caught by the long leg creature or fall into lava. Reach the teleporting portal as fast as possible and make your way to the top of the leaderboard to show that are you a noob or a pro."
+	},
+	{
+		"id": 12,
+		"star":"images/star-3.png",
+		"thumb": "picture/12.jpg",
+		"title": "Princess Nail Makeup",
+		"url": "https://html5.gamemonetize.co/brg3qc0o0yyts57u1hxz7wo5kgzzd2gv/",
+		"description": "Princess Nail Makeup Salon is a very delicate nail makeup game. Becoming a talented manicurist is a dream for many girls. Now, through online games, you can experience the work of a manicurist without leaving your home. In this game, you own a nail salon that designs nails for princesses. Unlike other games, this one has a lot of shiny nail plates and beautifully designed decorations. Enjoy!"
+	},
+	{
+		"id": 13,
+		"star":"images/star-5.png",
+		"thumb": "picture/13.jpg",
+		"title": "Crossy Road Chicken",
+		"url": "https://html5.gamemonetize.co/pqp40nkq7lza3bxv8l3nox52azaz55hf/",
+		"description": "Crossy Chicken is undoubtedly one of the most interesting new arcade games this year, with addictive gameplay and 2D art style. If you are a fan of such games, don't miss this game! In the Chicken Cross game, you have to dodge traffic, hop across logs, evade trains, and collect coins. Make sure you don't stay still for too long or you're toast! Don't forget to unlock exciting new characters with your hard earnt coins! Don't stand in the way of upcoming cars, or other incoming objects."
+	},
+	{
+		"id": 14,
+		"star":"images/star-5.png",
+		"thumb": "picture/14.jpg",
+		"title": "Drift Challenge Game",
+		"url": "https://html5.gamemonetize.co/0i6vrqatjft2fnu6tii6ka5aydljtps8/",
+		"description": "“Drift Challenge” is a racing game where you have to score points by drifting through the racing circuit. Try to slide on the track as much as you can to accumulate a lot of points and reach the target score. You must cross the finish line before the target time, beating the target score to unlock new levels. A super fun and challenging racing game! Have great fun!"
+	},
+	{
+		"id": 15,
+		"star":"images/star-4.png",
+		"thumb": "picture/15.jpg",
+		"title": "Baby Panda Cleanup",
+		"url": "https://html5.gamemonetize.co/elhnw9eo0ibczgm0b1s0aaycptx58n0r/",
+		"description": "Baby Panda Cleanup is a very fun game. The rooms are in a mess. Animals needs your help. Are you willing to help them clean up the rooms?"
+	},
+	{
+		"id": 16,
+		"star":"images/star-5.png",
+		"thumb": "picture/16.jpg",
+		"title": "Dungeon Miner - Idle Mining Game",
+		"url": "https://html5.gamemonetize.co/ugjtaa746vc8rl37miw74a2oesyoldm9/",
+		"description": "Dungeon Miner is a management simulation game. Your late uncle has left you a mine to teach you all about hard work and earning your fortune. Now grab your pickaxe and delve deep into all the areas on your piece of land. Craft new weapons and tools, explore dungeons to find valuables and blueprints, fight creatures, upgrade your gear and embark on an exciting adventure. Dungeon Miner will never get boring as it's laden with rich content and many surprises for you to explore."
+	},
+	{
+		"id": 17,
+		"star":"images/star-5.png",
+		"thumb": "picture/17.jpg",
+		"title": "My Stylish Ball Gown",
+		"url": "https://html5.gamemonetize.co/f0ibaisbaq87zcvxetgptu2fuyabxxdx/",
+		"description": "Welcome to the My Stylish Ball Gown game. Adorable girls Dee dee, Willow, and Noah are BFFs planned for a get-together party. Yesss! it’s a stylish ball gown party. Help the girls to pick a perfect gown and costumes for the party. Join with a girls and have fun!"
+	},
+	
+	{
+		"id": 18,
+		"star":"images/star-3.png",
+		"thumb": "picture/18.jpg",
+		"title": "Tiny Fishing - Idle Fishing Game",
+		"url": "https://html5.gamemonetize.co/hzvsxelbew3y0v09vyql2n40kgtziqyg/",
+		"description": "Tiny Fishing is a fishing game where you have to upgrade your gear to get bigger fish! Each fish you catch will earn you some money, which you can then spend on better equipment to fish deeper and deeper. The deeper you go, the rarer the fish become. Can you catch the biggest fish?"
+	},
+	{
+		"id": 19,
+		"star":"images/star-5.png",
+		"thumb": "picture/19.jpg",
+		"title": "Link Line",
+		"url": "https://html5.gamemonetize.co/a10etoj5d0w9lz1q98t4eifffsr08do2/",
+		"description": "- The game contains a matrix of square, the size of matrix is 5x5, 6x6, 7x7, 8x8, 9x9, 10x10 depends on level you are playing and difficulty level you want to challenge. - Your mission is about to connect two dots which have same color by drawing line between them. The mission will be completed when all below conditions are met: 1. All same color dots are connected in pair. 2. There are no intersect of any line. 3. All the squares in the matrix are filled with the lines. The difficulty will increase because there are more color dots when level up. There are thousands levels for you to challenge."
+	},
+	{
+		"id": 20,
+		"star":"images/star-5.png",
+		"thumb": "picture/20.jpg",
+		"title": "Santa Claus Winter Challenge",
+		"url": "https://html5.gamemonetize.co/7t9k46v9zcx6tzhsiaoepblvq94v6mxi/",
+		"description": "Santa Claus Winter Challenge is an amazing and free to play online puzzle game suitable for all ages. You need to draw the road for our cute Santaclaus and collect as many gifts as possible. Avoid obstacles on the road."
+	},
+	{
+		"id": 21,
+		"star":"images/star-4.png",
+		"thumb": "picture/21.jpg",
+		"title": "Fashion Hallo Boutique",
+		"url": "https://html5.gamemonetize.co/2lxjsorthdghhce8ut0d6pclp49icb8j/",
+		"description": "Horror, costumes, parties, treat or treat... It's Halloween, the busiest time of the year. Look, the shop is full of guests from the school. A sweet date, treat-or-treating, a birthday party, an audition... the girls will have a magnificent holiday. Dress up them as scary as possible! What's that? Is that a pineapple? Yes, someone dresses up like a pineapple on the street! Use your imagination to dress the girls both horrific and unique!"
+	},
+	{
+		"id": 22,
+		"star":"images/star-5.png",
+		"thumb": "picture/22.jpg",
+		"title": "Smile Style",
+		"url": "https://html5.gamemonetize.co/ltn0hrebsr0tafs10xpkl18o3bp7gkyi/",
+		"description": "A new social media challenge has begun! Cute princesses decided to depict emoji. Try to recreate one of the six emojis with makeup and accessories. Which emoji are you today? In love, angel, devil, cool, sad or angry? Enjoy playing «Smile Style» on dl-girls.com"
+	},
+	{
+		"id": 23,
+		"star":"images/star-4.png",
+		"thumb": "picture/23.jpg",
+		"title": "Battalion Commander 2",
+		"url": "https://html5.gamemonetize.co/lums1e59yytc3t1y8uh5mx355t4jqpgv/",
+		"description": "The Motherland needs you... again! Some strange activity is detected in the North so grab your guns, rockets and grenades and secure the territory. About face! MARCH!"
+	},
+	{
+		"id": 24,
+		"star":"images/star-3.png",
+		"thumb": "picture/24.jpg",
+		"title": "Biome Conquest",
+		"url": "https://html5.gamemonetize.co/knwrbaxz4i51zecgym07wek2r3uy3abp/",
+		"description": "Take over territories in a game of strategy. Steal your enemy's tiles by placing tiles with higher numbers next to them. Play against computer controlled opponents or against a friend."
+	},
+	{
+		"id": 25,
+		"star":"images/star-5.png",
+		"thumb": "picture/25.jpg",
+		"title": "Adds And Match Christmas",
+		"url": "https://html5.gamemonetize.co/05ky9henyirdmv43ae4aub6yjkw633jt/",
+		"description": "The rules are very simple and intuitive for everyone; So You just drag' n' drop the numbers in to the match boxes! There are two levels of difficult! in the first 20 levels you've just 4 number to match with 4 boxes after you will have 5 numbers to match with 5 boxes. The game is suitable for everyone that can play without stress... cause is just a kid’s math game in Christmas theme! So Enjoy this great game and Merry Christmas and happy new year!"
+	},
+	{
+		"id": 26,
+		"star":"images/star-4.png",
+		"thumb": "picture/26.jpg",
+		"title": "Cursed Treasure: Level Pack!",
+		"url": "https://html5.gamemonetize.co/vdvpxrlzz71n0xg7kkdbwx4qlsodbpx9/",
+		"description": "Level pack for the popular tower defense game Cursed Treasure. It includes the set of brand new levels and a number of improvements and bug fixes. Take on the role as the evil overlord of the orcs, demons and the undead and protect you gems from being stolen by the righteous heroes."
+	},
+	{
+		"id": 27,
+		"star":"images/star-5.png",
+		"thumb": "picture/27.jpg",
+		"title": "Snowfall",
+		"url": "https://html5.gamemonetize.co/mgxakh3phoy8empwmpdvxfxhv8flbrdx/",
+		"description": "The Snowfall Online Jump Action game is a great choice for anyone looking for a fun and challenging way to spend their free time. With its simple controls and easy-to-learn gameplay, the game is perfect for players of all ages and skill levels. Whether you're a seasoned gamer or just starting out, the Snowfall Online Jump Action game is sure to provide you with hours of entertainment."
+	},
+	{
+		"id": 28,
+		"star":"images/star-3.png",
+		"thumb": "picture/28.jpg",
+		"title": "NoobLOX Rainbow Friends",
+		"url": "https://html5.gamemonetize.co/oolkt9zalyqmfski8wirtuwl337at2dc/",
+		"description": "Everyone's favorite 2 noob characters need your help to escape from the Rainbow Friends. Help them. You have to play together with two of your friends and help 2 noobs. so jump over the obstacles and reach the door or if the red professor catches you, he can turn you into a monster. never stop, always run and run!"
+	},
+	{
+		"id": 29,
+		"star":"images/star-4.png",
+		"thumb": "picture/29.jpg",
+		"title": "WorldCup 2022 FK",
+		"url": "https://html5.gamemonetize.co/juh3ozer4ug8ad8xls172qm18mjvabt4/",
+		"description": "You are out of the group stage and have to win 4 more games to lift that world cup trophy and make your country proud"
+	},
+	{
+		"id": 30,
+		"star":"images/star-3.png",
+		"thumb": "picture/30.jpg",
+		"title": "Noob Steve Christmas",
+		"url": "https://html5.gamemonetize.co/iheo3btcmv7qtt4tp58scazi3gek1a89/",
+		"description": "Try to escape from the snowy area! Complete all the levels and share your result with your friends. Jump over snow blocks and don't fall into the cold ice. Compete with your friends and collect blocks to make portal. It's time to show off your parkour skills in Christmas! + Demonstrate your talent by completing 10 different levels that are getting harder and harder. + Try to reach the portal at the end of the each level and collect blocks to construct the portal."
+	},
+	{
+		"id": 31,
+		"star":"images/star-4.png",
+		"thumb": "picture/31.jpg",
+		"title": "Battalion Commander 1917",
+		"url": "https://html5.gamemonetize.co/5067zzmryyi9ibzuf32zw8dnd50yq8g6/",
+		"description": "During World War I, a regular yet brave soldier receives seemingly impossible orders. In a race against time, he must cross over into enemy territory to find an enormous enemy machine and destroy it that could potentially save 1,600 of his fellow comrades. This soldier is you! Free the fellow soldiers held captive on the enemy territory and they will join you in"
+	},
+	{
+		"id": 32,
+		"star":"images/star-5.png",
+		"thumb": "picture/32.jpg",
+		"title": "Football Brawl",
+		"url": "https://html5.gamemonetize.co/rifgnadbc38y3dj4dypflqh1714zpx1x/",
+		"description": "Live your football story! Enter the field, decimate your opponent with various powerful kicks and fun and quirky powerups. Finally let them know who is the boss with the emotes system - become a football legend today!"
+	},
+	{
+		"id": 33,
+		"star":"images/star-3.png",
+		"thumb": "picture/33.jpg",
+		"title": "Cooking Fever: Restaurant Game",
+		"url": "https://html5.gamemonetize.co/1scqs9lba1c7aj945vf18pkd9kyvlawc/",
+		"description": "Cooking Fever is one of the newest and most addictive restaurant food cooking games, featuring time management skills as well as strategy and simulation fun. Show your cooking skills by making delicious burgers and toast to become a master chef! -150 challenging levels. -Cute graphics. -Satisfying animations and effects. -2 different restaurants."
+	},
+	{
+		"id": 34,
+		"star":"images/star-5.png",
+		"thumb": "picture/34.jpg",
+		"title": "Sonic Frontiers",
+		"url": "https://html5.gamemonetize.co/f0bqmxcgegzqs1msrn4dvjvjpu2anr95/",
+		"description": "Worlds are colliding in Sonic the Hedgehog’s newest high-speed adventure! In search of the missing Chaos emeralds, Sonic becomes stranded on an ancient island teeming with unusual creatures. Battle hordes of powerful enemies as you explore a breathtaking world of action, adventure, and mystery. Accelerate to new heights and experience the thrill of high-velocity, open-zone platforming freedom as you race across the five massive Starfall Islands. Jump into adventure, wield the power of the Ancients, and fight to stop these new mysterious foes. Collect rings to survive this adventure and complete all levels to stop the mysterious foes"
+	},
+	{
+		"id": 35,
+		"star":"images/star-5.png",
+		"thumb": "picture/35.jpg",
+		"title": "Huggy Love and Rescue",
+		"url": "https://html5.gamemonetize.co/9198s367seiyujfoblfkxouw0xv7j6qr/",
+		"description": "Have fun with this entertaining platform and puzzle game Huggy Love and Rescue is a casual game solve the different puzzles in each level and help huggy wuggy to rescue his beloved kissy missy can you help and complete all the levels of this game? Find out at kiz10.com and enjoy this game for free. The adorable but creepy huggy wuggy needs your help to rescue his beloved kissy missy ps she got trapped in the dungeons and needs to be rescued fast. In each level take a good look at the puzzles and details of the game to solve each level. The objective of the game is to complete the puzzles of each of the levels and try not to waste time or you will lose quickly!"
+	},
+	{
+		"id": 36,
+		"star":"images/star-5.png",
+		"thumb": "picture/36.jpg",
+		"title": "Kuromi Maker",
+		"url": "https://html5.gamemonetize.co/c28xqyxzod67sb0kto5u8zidi3o97mrs/",
+		"description": "The villainous rabbit Kuromi won anime fans over with her cute appearance and mischievous nature. The antagonist from the series «Onegai My Melody» has developed a kuromikor aesthetic, and merchandise depicting the character has become a bestseller. The creators of the animated series presented Kuromi with all the necessary evil paraphernalia. She wears a black Joker cape with a pink skull print and a devil tail. Even the rabbit's birthday falls on October 31st, the eve of Halloween. Create your own Kuromi rabbit using the constructor. You will find a lot of costumes for all occasions. You can also create an image of Melody."
+	},
+	{
+		"id": 37,
+		"star":"images/star-3.png",
+		"thumb": "picture/37.jpg",
+		"title": "Noob vs Hacker - 2 Player",
+		"url": "https://html5.gamemonetize.co/lr2hwik65qiizdk761r72r0fb1qg5d19/",
+		"description": "Are you ready for the adventure of noob and hacker? They will go through a very dangerous road in their adventure and they have to be friends by force. you should imitate their friendship because they are actually enemies but they will pretend to be friends and become friends together to form a portal in the dangerous forest and escape. The hacker can carry the noob so the noob can reach anywhere. Thanks to the hacker, collect all the diamonds with your friend."
+	},
+	{
+		"id": 38,
+		"star":"images/star-4.png",
+		"thumb": "picture/38.jpg",
+		"title": "Cat Chef vs Fruits - 2 Player",
+		"url": "https://html5.gamemonetize.co/grqdskyp1lzz0pvf2i55wne4orajpugi/",
+		"description": "Help two adventurous fruits escape from the cook cat and get the broccoli and avocado to the fridge with your friend or if you don't want the cook cat to eat them, help them and reach the fridge. Be careful on the way there are cookie monsters obeying the cook cat, they can eat you. jump over the obstacles, get rid of the cookies and reach the refrigerator."
+	},
+	{
+		"id": 39,
+		"star":"images/star-4.png",
+		"thumb": "picture/39.jpg",
+		"title": "AmongusCraft",
+		"url": "https://html5.gamemonetize.co/ci88i0gadx9nrb3hc55acycaq59jwwo2/",
+		"description": "AmongusCraft is a 3D Among us style game in a blocky minecraft world where you play as a imposter and try to kill other crewmates."
+	},
+	{
+		"id": 40,
+		"star":"images/star-5.png",
+		"thumb": "picture/40.jpg",
+		"title": "Mad Day 2 Special",
+		"url": "https://html5.gamemonetize.co/pl0ny22eyt8lt0zseofcxkc7th9gtlej/",
+		"description": "Ride, shoot, jump and smash your way to victory in this addictive runner. Team up with ex-Marine Bob to battle evil aliens who have invaded the planet. To make things even worse, they’ve kidnapped his beloved pet octopus. Needless to say that Bob is on a mission to make this an encounter that the aliens won’t soon forget!"
+	},
+	{
+		"id": 41,
+		"star":"images/star-4.png",
+		"thumb": "picture/41.jpg",
+		"title": "Jewel Monsters",
+		"url": "https://html5.gamemonetize.co/zb1w5gd84dxffvpycbtpxnyqvlhrqqvy/",
+		"description": "Make your way through the forest fighting the monsters that hide among the trees! Match 3 or more gems of the same color with the monster to attack it. Match enough gems to eliminate the monster and pass through. If you don't do it fast enough, the monster will attack you! But fear not, there is a way to heal yourself. Match 4+ gems to make a heart bonus"
+	},
+
+	{
+		"id": 42,
+		"star":"images/star-4.png",
+		"thumb": "picture/42.jpg",
+		"title": "Lovely Wedding Date",
+		"url": "https://html5.gamemonetize.co/ws22m66vznkpghv25spxz745tdn0q8gq/",
+		"description": "Hey Girls, Welcome to the Lovely Wedding Date game. Skyler is more excited about her dream day with Collin. Yes, It’s their wedding. Help them to get ready for this occasion. And make this occasion a more memorable one in her life! Join them and have fun!"
+	},
+	{
+		"id": 43,
+		"star":"images/star-4.png",
+		"thumb": "picture/43.jpg",
+		"title": "Red and Green 2 Candy Forest",
+		"url": "https://html5.gamemonetize.co/38r55bv8n86qakotor3zitskyiw3uaky/",
+		"description": "red and green 2 is a two player game. An adventurous game for two, depicting the friendship between the red man and the green man, consisting of 10 chapters. collect candies and earn points. watch out for lasers."
+	},
+	{
+		"id": 44,
+		"star":"images/star-4.png",
+		"thumb": "picture/44.jpg",
+		"title": "The Adventure of Finn & Bonnie",
+		"url": "https://html5.gamemonetize.co/a7e34jmeberc2e3gwkbhlvivhffkrwx2/",
+		"description": "Robot colonizes planet x. Finn and bonnie needs to collect many weapons to destroy all robots. Mix and upgrade the weapon to make it stronger."
+	},
+	{
+		"id": 45,
+		"star":"images/star-5.png",
+		"thumb": "picture/45.jpg",
+		"title": "Slope City 2",
+		"url": "https://html5.gamemonetize.co/g81vvdh5cl0v0yuapahm9m1zss58jerr/",
+		"description": "Slope City is here with its new episode! The city map has been redesigned. In Slope City 2, you can buy balls in the 'Shop' and change their design. In order to purchase special abilities, you will need to collect diamonds on the new city map."
+	},
+	{
+		"id": 46,
+		"star":"images/star-4.png",
+		"thumb": "picture/46.jpg",
+		"title": "My Leopard Baby Care",
+		"url": "https://html5.gamemonetize.co/k4vshjngeoe8ykqupmw9n4wnejgfg3e4/",
+		"description": "Do you like animals? Do you know that although a leopard is a kind of fierce animal, a leopard baby is very cute? Do you want to care for the leopard baby? In this game, you can feed the leopard baby delicious foods, bathe her with rainbow bath salt, and dress her up in smart outfits. If you want to relax, you can click to open magic eggs with butterflies in them and the little leopard baby loves playing with butterflies too. Leopard baby gets tired after so many fun activities, put her to bed and count stars to let her fall asleep...If you like this game, please recommend it to your friends. Enjoy!"
+	},
+	{
+		"id": 47,
+		"star":"images/star-4.png",
+		"thumb": "picture/47.jpg",
+		"title": "Crossy Miner",
+		"url": "https://html5.gamemonetize.co/tp3u2xp186q6ecu4mzj0ah2q906m0dru/",
+		"description": "Crossy Miner is an arcade game with the gameplay similar to the classic Frogger game. In Crossy Miner game you have to dodge goblins, hop across logs, evade mining vagons and collect coins. Make sure you don’t stay still for too long or you’re toast! Don't forget to unlock exciting new characters with your hard earnt coins!"
+	},
+	{
+		"id": 48,
+		"star":"images/star-4.png",
+		"thumb": "picture/48.jpg",
+		"title": "Jack-O Gunner",
+		"url": "https://html5.gamemonetize.co/ggnc3n7me4xth5cdpuigjzwg9jvq1cyi/",
+		"description": "Jack-O Gunner is a casual action and survival game with Halloween theme. Your aim is to kill all the skeletons, upgrade your skills and survive as long as possible."
+	},
+
+	{
+		"id": 49,
+		"star":"images/star-5.png",
+		"thumb": "picture/49.jpg",
+		"title": "Noob Steve",
+		"url": "https://html5.gamemonetize.co/s78j9z1jz9e1deov6642w0i08mn38ivr/",
+		"description": "Try to complete 5 very difficult levels with the Minecraft character steve!"
+	},
+	{
+		"id": 50,
+		"star":"images/star-4.png",
+		"thumb": "picture/50.jpg",
+		"title": "Hippo Pizza Maker",
+		"url": "https://html5.gamemonetize.co/dcsna3b86jp213z9855538x1b3bsp9eo/",
+		"description": "Hippo Pizza Maker is a very cute cooking game. Do you want to know how to make pizzas? In this game, you will experience the cooking process of pizzas. Pizza Margherita, Sicilian Pizza, Pizza Chilli, Hawaiian Pizza, and Seafood Pizza are very popular now. You can make them one by one, enjoying kneading dough and cutting freshly baked pizza into small pieces. You can also play the mini-games we prepared for you: Run the restaurant, find the hidden objects, deliver the pizzas... The minigames will exercise your reflexes, observation, and logic skills, and also the minigames are very fun."
+	},
+	{
+		"id": 51,
+		"star":"images/star-4.png",
+		"thumb": "picture/51.jpg",
+		"title": "Skull Hunter",
+		"url": "https://html5.gamemonetize.co/vbvcclu8knro45shzosmhdzvql5edgty/",
+		"description": "A flappy horror game themed about of a flying skull ghost in a cave. Destroy all enemy skulls. Hit the enemy's skull or make them collide with each other. Use enemies to help destroy stone obstacles. Don't hit the cave wall or fall. Hit 10 enemies and get fire power to destroy anything. Complete each difficulty level."
+	},
+	{
+		"id": 52,
+		"star":"images/star-4.png",
+		"thumb": "picture/52.jpg",
+		"title": "Jewel Monsters",
+		"url": "https://html5.gamemonetize.co/zb1w5gd84dxffvpycbtpxnyqvlhrqqvy/",
+		"description": "Make your way through the forest fighting the monsters that hide among the trees! Match 3 or more gems of the same color with the monster to attack it. Match enough gems to eliminate the monster and pass through. If you don't do it fast enough, the monster will attack you! But fear not, there is a way to heal yourself. Match 4+ gems to make a heart bonus"
+	},
+	{
+		"id": 53,
+		"star":"images/star-4.png",
+		"thumb": "picture/53.jpg",
+		"title": "Masquerades vs impostors",
+		"url": "https://html5.gamemonetize.co/wv2y8ymu1ky31tcd5reia8d77uel7mq3/",
+		"description": "The man in the red and blue mask needs to escape from the spaceship? you must help them. watch out, only red colored impostors with red masks can kill. Likewise with the blue mask. Anyone can kill their own color. watch out for zombies, kill them too."
+	},
+	{
+		"id": 54,
+		"star":"images/star-4.png",
+		"thumb": "picture/54.jpg",
+		"title": "Zuma Boom",
+		"url": "https://html5.gamemonetize.co/5rfku0p6v8rgj3sr70rgchbtdypdeusj/",
+		"description": "A classic Zuma puzzle that can be played either with mouse or touch."
+	},
+	{
+		"id": 55,
+		"star":"images/star-4.png",
+		"thumb": "picture/55.jpg",
+		"title": "Mermaid Newborn Baby Care",
+		"url": "https://html5.gamemonetize.co/as4k08jr1ovc79hv9eykia9uxk9ju6os/",
+		"description": "Mermaid Baby Care is a very popular caring game. Princess Mermaid has been so busy recently. She is really in need of a helper caring for her baby. Do you want to take care of the baby? Firstly take a shower for the mermaid baby and dress up for him. Mermaid baby loves coloring. There are 3 cute animals for you to color. Will you give the mermaid baby a big surprise by coloring the most beautiful artwork for him? It's been a while since the baby ate food, come and feed him some fruits. After the wonderful activities, the mermaid baby is tired. Come and coax him to sleep. Thank you for helping Princess caring her baby. You are such a nice kid!"
+	},
+	{
+		"id": 56,
+		"star":"images/star-3.png",
+		"thumb": "picture/56.jpg",
+		"title": "APE Sling",
+		"url": "https://html5.gamemonetize.co/w777si2z6cxmiulhsp0d9kp02hcp3r0e/",
+		"description": "APE Sling is an arcade game you have to sling your character APE to complete the level. Bounce, swing, and more to go as far as you can in APE Sling on here. But watch out for deadly traps and obstacles. You'll need to avoid saws, fires, enemies, and more in order to make your way to the top! Play APE Sling for free in your browser and unlock crazy characters to sling your way to success!"
+	},
+
+	{
+		"id": 57,
+		"star":"images/star-4.png",
+		"thumb": "picture/57.jpg",
+		"title": "Moto Maniac 2",
+		"url": "https://html5.gamemonetize.co/g4c6ifgm9a4jejts0ziazzzroygbjltj/",
+		"description": "Overcome all the obstacles as fast as you can. This game is a sequel to Moto Maniac set in a different environment. This time it's a bridge in the night. It's under construction so you have to be careful not to fall into the abyss and not to hit your head. On top of the obstacles on the way, it's dark! Fortunately you have a drone that will light your way."
+	},
+	{
+		"id": 58,
+		"star":"images/star-5.png",
+		"thumb": "picture/58.jpg",
+		"title": "Spider Man Rescue Online",
+		"url": "https://html5.gamemonetize.co/jisaw60do3k71bwcshv69tkv0p1b2x5g/",
+		"description": "Have fun with this new exclusive game from kiz10.com in Spider Man Rescue Online you will help our favorite hero to save the citizens captured by a fearsome criminal organization !!! Become a real hero with this game the little spiderman will seek to save the hostages and will capture all the enemies in his spider web. The objective of the game is to control the little spider man so that he can shoot his spider web at the precise moment and thus capture the enemies that are located on different platforms. But be very careful that they will not hesitate to shoot you if you don't, glide through the platforms, jump and shoot when they have multiple enemies in your sights. The more enemies you eliminate and complete each level you will be able to accumulate reward in coins that will allow you to improve your hero suit and with this improve your spider web, do not give up and reach the final bosses of the month that you are the hero that everyone expects."
+	}
+
+	,
+	{
+		"id": 59,
+		"star":"images/star-3.png",
+		"thumb": "picture/59.jpg",
+		"title": "Bob Save Stuart",
+		"url": "https://html5.gamemonetize.co/ypszia7c41aphr4rucm8cbfac2v3nwy5/",
+		"description": "hey bob, hurry up! Your friends are in bad condition, there is a purple smoke and a purple liquid poisoning them, turning them into purple monsters. you gotta protect your friends stuart needs you protect it from the purple smoke. Raise the cage and run before the purple smoke comes collect all the bananas and save your friends. they need you. watch out for purple monsters they want to eat you run away from them!"
+	}
+	,
+	{
+		"id": 60,
+		"star":"images/star-4.png",
+		"thumb": "picture/60.jpg",
+		"title": "SpongeBob Halloween Jigsaw Puzzle",
+		"url": "https://html5.gamemonetize.co/1d2j24jjbk34g6a1cfvix6a4urycq0or/",
+		"description": "Drag and drop the all picture pieces to their exact locations to complete the pictures of the SpongeBob Halloween. The game comes with 12 pictures and three difficulties: 2x3, 3x4, 4x6."
+	}
+    ,
+	{
+		"id": 61,
+		"star":"images/star-4.png",
+		"thumb": "picture/61.jpg",
+		"title": "PixelPooL - 2 Player",
+		"url": "https://html5.gamemonetize.co/p52j21o0l2p7dx4393c06xlvhhx1jphc/",
+		"description": "The blue and red men from the pixelpool family must reach the door safely. As the pixelpool, they have to watch out for the obstacles and jump over the obstacles and reach the finish line without dying. Reach the door together with red and blue. get the victory. be the winner."
+	}
+	
+	,
+	{
+		"id": 62,
+		"star":"images/star-4.png",
+		"thumb": "picture/62.jpg",
+		"title": "Crossy Chicken",
+		"url": "https://html5.gamemonetize.co/rlz6ypkzl7cgle5yivsyledz0khnk4dc/",
+		"description": "Chicken Cross is an arcade game created by SquareLemurs with the gameplay similar to the classic Frogger game. In Chicken Cross game you have to dodge traffic, hop across logs, evade trains and collect coins. Make sure you don’t stay still for too long or you’re toast! Don't forget to unlock exciting new characters with your hard earnt coins!"
+	}
+	,
+	{
+		"id": 63,
+		"star":"images/star-4.png",
+		"thumb": "picture/63.jpg",
+		"title": "Among Us Dungeon",
+		"url": "https://html5.gamemonetize.co/ahmryzr669sk4e9yur458nw0kpxxhvh4/",
+		"description": "Among Dungeon is an interesting puzzle game. You need to guide the robot to quickly clear the traps in the maze to help us escape from the labyrinth, stop explosives and other obstacles, be careful to dodge and run and pay attention to the spikes that unexpectedly land when you notice that there is no path ahead, you can opt to jump up to another platform, are you ready? Have fun at Among"
+	}
+	,
+	{
+		"id": 64,
+		"star":"images/star-4.png",
+		"thumb": "picture/64.jpg",
+		"title": "Brawl Guys",
+		"url": "https://html5.gamemonetize.co/ddek6s43vtxox5ocpsctljrtny62f1ss/",
+		"description": "Get ready for a brawl! Choose your character then jump into the arena as you try to be the first player to complete the goal of each game. Win the match to earn a trophy. Keep stacking up your trophies as you attempt to be the best player."
+	}
+	,
+	
+	{
+		"id": 65,
+		"star":"images/star-5.png",
+		"thumb": "picture/65.jpg",
+		"title": "Arrow of Janissary",
+		"url": "https://html5.gamemonetize.co/k2svrdwg2xoppdzi84bo1pbe1fej7b70/",
+		"description": "Our cute Janissary character is getting into struggle by arrow shots this tine. The arrow shots that they do which are being shot to different areas, is being affected by wind, angle and different types of bonuses. The one who reaches 5 score first, wins the game."
+	}
+	
+]
